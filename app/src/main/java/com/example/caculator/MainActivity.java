@@ -213,7 +213,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             tv_result.setText("");
             edt_view.setText(String.valueOf(ans) + " -");
         }
-        if(id == R.id.multiply){
+        if(id == R.id.bMul){
             if(begin_flag == true){
                 ans = num_a;
                 begin_flag = false;
